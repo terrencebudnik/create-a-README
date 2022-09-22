@@ -47,7 +47,7 @@ function generateMarkdown(data) {
   ----------------------------------------------------------------------
 
   # ${data.description}
-  # ![License](renderLicenseBadge(${data.license})
+  # ![License](${renderLicenseBadge(data.license)})
 
   -----------------------------------------------------------------------
 
@@ -62,27 +62,28 @@ function generateMarkdown(data) {
 
   ------------------------------------------------------------------------
 
-  ##Installation
+  ## Installation
   >${data.installation}
 
 
-  ##Usage
+  ## Usage
   >${data.usage}
 
 
-  ##Contribution
+  ## Contribution
   >${data.contributions}
 
-  ##Testing
+  ## Testing
   >${data.test}
 
 
-  ##Contact Me
+  ## Contact Me
 
-  >[Email](${data.email})
-  >[GitHub Profile](github.com/${data.github})
+  [Email](${data.email})
+  [GitHub Profile](github.com/${data.github})
 
-
+  ## License
+  [License](${renderLicenseLink(data.license)})
 
 `;
 }

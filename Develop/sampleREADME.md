@@ -4,8 +4,8 @@
 
   ----------------------------------------------------------------------
 
-  # It works for Stuff
-  # ![License](renderLicenseBadge(MIT)
+  # It works
+  # ![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   -----------------------------------------------------------------------
 
@@ -20,25 +20,28 @@
 
   ------------------------------------------------------------------------
 
-  ##Installation
-  >Installation Steps
+  ## Installation
+  >Installation
 
 
-  ##Usage
+
+  ## Usage
   >Usage Information
 
 
-  ##Contribution
+
+  ## Contribution
   >Please contribute
 
-  ##Testing
+  ## Testing
   >Testing Steps
 
 
-  ##Contact Me
+  ## Contact Me
 
-  >[Email](Email Link)
-  >[GitHub Profile](github.com/terrencebudnik)
+  [Email](email )
+  [GitHub Profile](github.com/terrencebudnik)
 
-
+  ## License
+  [License](https://opensource.org/licenses/MIT)
 
