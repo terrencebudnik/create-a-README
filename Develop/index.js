@@ -3,8 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const createReadme = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
-// const questions = [];
+
 inquirer
   .prompt([
     {
@@ -61,13 +60,3 @@ inquirer
   err ? console.log(err) : console.log("Check out your new README page! Make sure to ADD,COMMIT, AND PUSH"))
     
   });
-
-
-
-// TODO: Create a function to initialize app
-// function init() {
-//    inquirer.prompt(questions)
-// }
-
-// Function call to initialize app
-//  init();

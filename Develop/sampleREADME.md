@@ -4,7 +4,7 @@
 
   ----------------------------------------------------------------------
 
-  # Allows user to easily create a professional README.md for GitHub projects
+  # It allows users to input details of project on the command line to produce professional README.md
   # ![License](https://img.shields.io/badge/License-MIT-yellow.svg))
 
   -----------------------------------------------------------------------
@@ -24,23 +24,22 @@
   >Make sure to import or require 'fs' and 'inquirer'
 
 
-
   ## Usage
-  >Use for work or personal projects
+  >Use for personal or professional projects/repo's
 
 
   ## Contribution
-  >Please go to my contact section if you would like to contribute
+  >If interested in contributing, go to my contact information and send me a message
 
   ## Testing
-  >Easily re-run application to ensure correct information is displayed
+  >This application makes it easy to test out your inputs and check the display
 
 
   ## Contact Me
 
-  [Email](https://mail.google.com/mail/?view=cm&source=mailto&to=[terrence.budnik@gmail.com])  
+  [Email](terrence.budnik@gmail.com)  
   [GitHub Profile](https://github.com/terrencebudnik)
 
   ## License
-  [MIT](https://opensource.org/licenses/MIT)
+  [License Information](https://opensource.org/licenses/MIT)
 
