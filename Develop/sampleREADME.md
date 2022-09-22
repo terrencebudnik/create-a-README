@@ -1,11 +1,11 @@
 
   
-  # Project Name
+  # create-a-README
 
   ----------------------------------------------------------------------
 
-  # It works
-  # ![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # Allows user to easily create a professional README.md for GitHub projects
+  # ![License](https://img.shields.io/badge/License-MIT-yellow.svg))
 
   -----------------------------------------------------------------------
 
@@ -21,27 +21,26 @@
   ------------------------------------------------------------------------
 
   ## Installation
-  >Installation
+  >Make sure to import or require 'fs' and 'inquirer'
 
 
 
   ## Usage
-  >Usage Information
-
+  >Use for work or personal projects
 
 
   ## Contribution
-  >Please contribute
+  >Please go to my contact section if you would like to contribute
 
   ## Testing
-  >Testing Steps
+  >Easily re-run application to ensure correct information is displayed
 
 
   ## Contact Me
 
-  [Email](email )
-  [GitHub Profile](github.com/terrencebudnik)
+  [Email](https://mail.google.com/mail/?view=cm&source=mailto&to=[terrence.budnik@gmail.com])  
+  [GitHub Profile](https://github.com/terrencebudnik)
 
   ## License
-  [License](https://opensource.org/licenses/MIT)
+  [MIT](https://opensource.org/licenses/MIT)
 
