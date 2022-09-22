@@ -18,6 +18,12 @@ inquirer
       name: 'description',
     },
     {
+      type: 'list',
+      message: 'Please choose license for application',
+      name: 'license',
+      choices: [""]
+    },
+    {
       type: 'editor',
       message: 'Please include installation instructions:',
       name: 'installation',
@@ -51,7 +57,7 @@ inquirer
   
   .then((data)=> {
   
-  fs.writeFile('README.md', createReadme(data),(err) =>
+  fs.writeFile('sampleREADME.md', createReadme(data),(err) =>
   err ? console.log(err) : console.log("Check out your new README page! Make sure to ADD,COMMIT, AND PUSH"))
     
   })
