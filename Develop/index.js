@@ -21,7 +21,7 @@ inquirer
       type: 'list',
       message: 'Please choose license for application',
       name: 'license',
-      choices: [""]
+      choices: ["MIT", "GPLv2", "Apache", "GPLv3", "BSD 3-clause", "None"]
     },
     {
       type: 'editor',
@@ -60,10 +60,9 @@ inquirer
   fs.writeFile('sampleREADME.md', createReadme(data),(err) =>
   err ? console.log(err) : console.log("Check out your new README page! Make sure to ADD,COMMIT, AND PUSH"))
     
-  })
+  });
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+
 
 // TODO: Create a function to initialize app
 // function init() {}

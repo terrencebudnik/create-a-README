@@ -1,44 +1,43 @@
 
   
-  # create-a-readme
+  # Project Name
 
   ----------------------------------------------------------------------
 
-  # creates a professional readme
+  # It works for Stuff
+  # ![License](renderLicenseBadge(MIT)
 
   -----------------------------------------------------------------------
 
-  | Table of Contents                    | Click on each Section to View |
+  | Table of Contents-Click to View      | Details                       |
   | ------------------------------       | ----------------------------- |
-  | [Installation](##Installation)       | Installation Instructions     |
-  | [Usage](##Usage)                     | Usage Information             |
-  | [Contribution](##Contributions)      | COntribution Guidelines       |
-  | [Test](##Testing)                    | Testing Instructions          |
-  | [Contact Me](##Contact Me)           | Testing Instructions          |
-
+  | [Installation](#Installation)        | Installation Instructions     |
+  | [Usage](#Usage)                      | Usage Information             |
+  | [Contribution](#Contributions)       | Contribution Guidelines       |
+  | [Test](#Testing)                     | Testing Instructions          |
+  | [Contact Me](#Contact-Me)            | GitHub and E-mail Links       |
+  | [License Link](#License)             | Information of License        |
 
   ------------------------------------------------------------------------
 
   ##Installation
-  >undefined
+  >Installation Steps
 
 
   ##Usage
-  >use for work
-
+  >Usage Information
 
 
   ##Contribution
-  >contact me
-
+  >Please contribute
 
   ##Testing
-  >undefined
+  >Testing Steps
 
 
   ##Contact Me
 
-  >[Email](email)
+  >[Email](Email Link)
   >[GitHub Profile](github.com/terrencebudnik)
 
 
