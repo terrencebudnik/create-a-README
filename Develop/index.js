@@ -18,23 +18,23 @@ inquirer
       name: 'description',
     },
     {
-      type: 'input',
+      type: 'editor',
       message: 'Please include installation instructions:',
       name: 'installation',
     },
     {
-      type: 'input',
+      type: 'editor',
       message: 'Please include usage information:',
       name: 'usage',
     },
     {
-      type: 'input',
+      type: 'editor',
       message: 'Please include testings steps: ',
       name: 'test',
     },
     {
-      type: 'input',
-      message: 'Please include contributing parties: ',
+      type: 'editor',
+      message: 'Please include contribution guidelines: ',
       name: 'contributions',
     },
     {
@@ -44,7 +44,7 @@ inquirer
     },
     {
       type: 'input',
-      message: 'What is the best e-mail for contacting you?',
+      message: 'What is the best e-mail for contacting you? Provide direct link',
       name: 'email',
     },
   ])
@@ -52,7 +52,7 @@ inquirer
   .then((data)=> {
   
   fs.writeFile('README.md', createReadme(data),(err) =>
-  err ? console.log(err) : console.log("Check out your new README page!"))
+  err ? console.log(err) : console.log("Check out your new README page! Make sure to ADD,COMMIT, AND PUSH"))
     
   })
 

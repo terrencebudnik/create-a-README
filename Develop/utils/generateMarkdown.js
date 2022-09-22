@@ -26,7 +26,7 @@ function generateMarkdown(data) {
   | ------------------------------       | ----------------------------- |
   | [Installation](##Installation)       | Installation Instructions     |
   | [Usage](##Usage)                     | Usage Information             |
-  | [Contributions](##Contributions)     | COntribution Guidelines       |
+  | [Contribution](##Contributions)      | COntribution Guidelines       |
   | [Test](##Testing)                    | Testing Instructions          |
   | [Contact Me](##Contact Me)           | Testing Instructions          |
 
@@ -34,20 +34,24 @@ function generateMarkdown(data) {
   ------------------------------------------------------------------------
 
   ##Installation
+  >${data.installtion}
 
 
   ##Usage
+  >${data.usage}
 
 
-  ##Contributions
+  ##Contribution
+  >${data.contributions}
 
   ##Testing
+  >${data.testing}
 
 
   ##Contact Me
 
   >[Email](${data.email})
-  >[GitHub Profile](${data.github})
+  >[GitHub Profile](github.com/${data.github})
 
 
 
